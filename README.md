@@ -1,3 +1,5 @@
+https://kpatelboka646-prog.github.io/api-landing-page2.github.io/
+
 API Studio — Version 5 (full code)
 
 Files:
@@ -27,3 +29,4 @@ If you want, I can now:
 - Package everything in a ZIP with placeholder images and `logo.png`.
 
 Tell me which next step you'd like — I’ll create it right away.
+
