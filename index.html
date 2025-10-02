@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WELCOME TO THE API'S STUDIO — V5</title>
+  <meta name="description" content="Welcome To The API'S Studio — fast, responsive, black & white API landing for students." />
+  <meta name="theme-color" content="#ffffff" id="meta-theme-color">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-light">
+  <!-- Accessible theme toggle (small, fixed) -->
+  <button id="themeToggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">Dark</button>
+
+  <main class="stage" id="top">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="studioTitle">
+      <h1 id="studioTitle" class="hero-title">WELCOME TO THE API'S STUDIO</h1>
+      <p class="hero-sub">A clean, powerful access point for students — numbered tiles lead to focused API workspaces.</p>
+    </section>
+
+    <!-- API grid (clear big targets) -->
+    <nav class="api-grid" role="navigation" aria-label="API Studio navigation">
+      <a class="api-card" href="news/news.html" aria-label="Open Wikipedia workspace">
+        <span class="num">01</span>
+        <span class="name">WIKIPEDIA</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="nasa/nasa.html" aria-label="Open NASA workspace">
+        <span class="num">02</span>
+        <span class="name">NASA</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="books.html" aria-label="Open Books workspace">
+        <span class="num">03</span>
+        <span class="name">BOOKS</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="ai.html" aria-label="Open AI Studio">
+        <span class="num">04</span>
+        <span class="name">AI STUDIO</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="bank.html" aria-label="Open World Bank workspace">
+        <span class="num">05</span>
+        <span class="name">WORLD BANK</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="arxiv.html" aria-label="Open arXiv workspace">
+        <span class="num">06</span>
+        <span class="name">ARXIV</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="museum.html" aria-label="Open Museum workspace">
+        <span class="num">07</span>
+        <span class="name">MUSEUM</span>
+        <span class="open">OPEN</span>
+      </a>
+
+      <a class="api-card" href="one/one.html" aria-label="Open ONE workspace">
+        <span class="num">08</span>
+        <span class="name">ONE</span>
+        <span class="open">OPEN</span>
+      </a>
+    </nav>
+
+    <!-- Single-page content (heading, subheading, one paragraph) -->
+    <section class="studio-content" aria-labelledby="contentHeading">
+      <h2 id="contentHeading" class="content-heading">Studio Overview</h2>
+      <h3 class="content-sub">One place. Clear choices. Student-first.</h3>
+      <p class="content-paragraph">
+        This API Studio is built as a focused, distraction-free gateway for learners. Each numbered tile opens a dedicated workspace for a single data source — encyclopedia content from Wikipedia, stunning images and data from NASA, books & editions from Google Books/Open Library, research abstracts from arXiv, global indicators from the World Bank, museum assets from the Met and more. The interface uses strong high-contrast typography and clear OPEN actions so there is zero confusion about where to click. Dark and light themes are built with CSS variables and flip instantly — no partial screen overlays. For integration and secure API key handling follow the downloadable API document available in the footer.
+      </p>
+    </section>
+
+    <!-- Footer: tiny logo + document link -->
+    <footer class="footer" role="contentinfo">
+      <img src="logo.png" alt="SNS School Balotra" class="footer-logo" />
+      <a class="doc-download" href="document.html" download>Download API Document</a>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
